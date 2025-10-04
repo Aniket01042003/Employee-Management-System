@@ -158,9 +158,9 @@ The backend provides the following RESTful endpoints for the `employee` resource
 | :--- | :--- |:--- |
 | `GET` | `/api/employee` | Fetches all employees. |
 | `GET` | `/api/employee/:id` | Fetches a single employee by their ID. |
-| `POST` | `/api/employee/add`| Adds a new employee to the database. |
-| `PUT` | `/api/employee/update/:id` | Updates an existing employee by their ID. |
-| `DELETE`| `/api/employee/delete/:id` | Deletes an employee by their ID. |
+| `POST` | `/api/employee`| Adds a new employee to the database. |
+| `PUT` | `/api/employee/:id` | Updates an existing employee by their ID. |
+| `DELETE`| `/api/employee/:id` | Deletes an employee by their ID. |
 
 ---
 
